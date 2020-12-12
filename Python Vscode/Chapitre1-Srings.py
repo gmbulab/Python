@@ -59,17 +59,32 @@ print(p1.lower())
 
 ### 6. Print et formatting des strings
 # https://docs.python.org/3/library/stdtypes.html#old-string-formatting
-## **** Format ****
-# *****************  
+# https://docs.python.org/3/reference/lexical_analysis.html#f-strings
+## **** Variables prédéfinies et Format ****
+# ******************************************
+# Utilisation de variable prédéfinies 
+nom = 'GM'
+print(f'Mon nom est {nom} et avec des quotes {nom!r}')
+
 # On peut utiliser .format() pour ajouter des objects strings avec format à définir
 # Il suffit de mettre {} dans la chaine string
 p4 = 'Bonjour, nous utilisons {} pour remplir votre nom qui est {}'.format('braket', 'Guy-Marcel')
 print(p4)
 # on peut également preciser l'ordre 
-print(' Le {3} , le {1} et le {2}'.format('second ', 'troisieme' , 'premier' ))
+print(' Le {2} , le {0} et le {1}'.format('second ', 'troisieme' , 'premier' ))
 
 # on peut spécifier la valeur et évite la duplication
 print('Le a vaut {a} , le b vaut {b} et le c vaut {c}. {b} est le nombre le plus grand puis vient {c}'.format(a=1, b=25.6 , c =3.14))
+
+# Alignement avec format 
+# Par defaut les text sont à gauche et kes nombre à droite 
+print('{0:10} | {1:10}'.format("Colone 1", 'Colone 2'))
+print('{0:10} | {1:10}'.format("Fruit", '2.90'))
+# on peut préciser <: pour gauche , ^: pour centre , >: pour droite
+print('{0:<8} | {1:^8} | {2:>8}'.format('Gauche','Centre','Droite'))
+
+# On peut également remplacer les espaces vide par des caractères spéciaux
+print('{0:*<8} | {1:=^8} | {2:.>8}'.format('Gauche','Centre','Droite'))
 
 # **** % ****
 # ***********
