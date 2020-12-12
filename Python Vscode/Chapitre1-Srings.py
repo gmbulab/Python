@@ -59,7 +59,8 @@ print(p1.lower())
 
 ### 6. Print et formatting des strings
 # https://docs.python.org/3/library/stdtypes.html#old-string-formatting
-#  
+## **** Format ****
+# *****************  
 # On peut utiliser .format() pour ajouter des objects strings avec format à définir
 # Il suffit de mettre {} dans la chaine string
 p4 = 'Bonjour, nous utilisons {} pour remplir votre nom qui est {}'.format('braket', 'Guy-Marcel')
@@ -70,6 +71,8 @@ print(' Le {3} , le {1} et le {2}'.format('second ', 'troisieme' , 'premier' ))
 # on peut spécifier la valeur et évite la duplication
 print('Le a vaut {a} , le b vaut {b} et le c vaut {c}. {b} est le nombre le plus grand puis vient {c}'.format(a=1, b=25.6 , c =3.14))
 
+# **** % ****
+# ***********
 # On peut également utiliser % avec le format souhaité
 print('Utilisation de %s pour une phrase' %'Pourcentage')
 # Avec pourcentage, nous pouvons préciser le format de conversion
