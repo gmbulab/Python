@@ -15,7 +15,7 @@
 # 6.Print et formatting des strings 
 
 ### 1. Création des strings 
-
+############################
 # créer un mot 
 mot =  "Bonjour"
 
