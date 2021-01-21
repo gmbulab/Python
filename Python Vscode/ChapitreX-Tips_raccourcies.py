@@ -1,3 +1,4 @@
+#########################################
 ## penser à faire les list comprehension
 
 # Let's make three lists
@@ -9,3 +10,8 @@ lst_3=[7,8,9]
 matrix = [lst_1,lst_2,lst_3]
 # Build a list comprehension by deconstructing a for loop within a []
 first_col = [row[0] for row in matrix]
+
+#####################################################
+# Self addition and self substractions
+x = 1 
+x +=2 # équivaut ) x = x +2 >> renvoie 3
