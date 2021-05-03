@@ -1,6 +1,6 @@
 """
 @author : Guy-Marcel MBULA BAKU (gmbula@yahoo.fr)
-@Date : Jan 2021
+@Date : Dec 2021
 inspiré du cours de pieran Data et de python crash course
 """
 
