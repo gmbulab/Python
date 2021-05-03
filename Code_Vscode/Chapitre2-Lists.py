@@ -59,7 +59,9 @@ concatliste = ma_liste + ma_liste2 # renvoie une nouvelle liste conteant [1.36, 
 concatliste.reverse()
 
 # trie de liste (trie par ordre alhabetique ou croissant) : liste.sort 
-concatliste.sort()
+ma_liste2 = [5,3.3,6]
+ma_liste2
+.sort()
 
 # 3. Les Nested listes ou liste de liste
 #########################################
@@ -70,6 +72,8 @@ nested_list = [ma_liste, ma_liste1, ma_liste2]
 # L'indixation se fait de la même manière 
 nest_list[0] # renvoie [1, 2, 3]
 nest_list[0][0] # renvoie 1
+
+print(ma_liste2.index(5))
 
 
 
